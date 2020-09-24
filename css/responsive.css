@@ -1,0 +1,33 @@
+@media only screen and (max-width: 992px) {
+	html {
+		font-size: 90%;
+  }
+  .nav {
+    padding: 0;
+  }
+  .nav__btn {
+    margin: 0;
+    display: block;
+  }
+  .nav__list {
+    display: none;
+  }
+  .nav__list--open {
+    display: block;
+    padding-top: 1.5625rem;
+  }
+  
+}
+@media screen and (max-width: 768px){
+	html {
+		font-size: 75%;
+	}
+}
+@media screen and (max-width: 576px){
+	html{
+		font-size: 60%;
+  }
+  .firstParagraphImage img {
+    padding-right: 10px;
+  }
+}
